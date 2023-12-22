@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ffffff;
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+}
+nav {
+  margin-left: 30px;
+  height: 80px;
+}
+nav a {
+  text-decoration: none;
+  color: #111111;
+  padding: 0 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+.comment {
+  background-color: #f095d5;
+  height: 527px;
+  width: 100%;
+  color: #ffffff;
+}
+.nav-contact {
+  color: #9881f7;
+}
+.header-box {
+  margin-left: 90px;
+}
+.texts {
+  padding-left: 107px;
+  padding-top: 76px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 25px;
+}
+.buttons {
+  margin: 36px auto 0 109px;
+  border: none;
+}
+.button-first {
+  color: #111111 !important;
+  background-color: #ffffff !important;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  font-family: Ubuntu, sans-serif;
+}
+.button-second {
+  color: #111111 !important;
+  background-color: #f1c50e !important;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  align-items: center;
+  padding: 45px;
+  justify-content: center;
+}
+.cards span {
+  display: flex;
+  justify-content: center;
+}
+.card-header {
+  text-align: center;
+  font-family: Ubuntu, sans-serif
+}
+.card-view {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9881f7;
+  justify-content: center;
+}
+.card-view-first {
+  background-color: #f0fbf1;
+  padding: 60px;
+}
+.card-view-second {
+  background-color: #fdf3fb;
+  padding: 60px;
+}
+.card-view-third {
+  background-color: #fef8e6;
+  padding: 60px;
+}
+.card-view-first>span {
+  font-weight: bold; 
+}
+.card-view-second>span {
+  font-weight: bold;
+}
+.card-view-third>span {
+  font-weight: bold;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.main {
+  display: flex;
+  height: 633px;
+}
+.left-side,
+.right-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-side {
+  background-color: white;
+}
+.right-side {
+  background-color: white;
+}
+.main {
+  display: flex;
+  height: 633px;
+  background-color: white;
+}
+.left-side,
+.right-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 0;
+  text-align: left;
+  position: absolute;
+  font-family: Ubuntu, sans-serif;
+}
+form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1c50e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.left-side img {
+  height: 513px;
+}
+.form-header {
+  font-size: 40px;
+  text-align: start   ;
+  position: relative;
+  margin-right: 250px;
+  margin-bottom: 400px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right-side>form {
+  justify-content: start;
+  border: none;
+}
+#name {
+  border: none;
+  background-color: #e7e5e5;
+}
+#email {
+  border: none;
+  background-color: #e7e5e5;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+#left-content {
+  flex: 1;
+  text-align: center;
+}
+#left-content p {
+  margin: 0;
+}
+#buttons {
+  display: flex;
+  margin-top: 5px;
+  gap: 40px;
+  justify-content: center;
+}
+#right-content img {
+  max-width: 100%;
+  max-height: 550px;
+  height: auto;
+}
+#footer {
+  height: 636px;
+  background-color: #9881f7;
+  font-family: Ubuntu, sans-serif;
+} 
+.button-pri {
+  color: #111111 !important;
+  background-color: #ffffff !important;
+  padding: 14px 27px;
+  cursor: pointer;
+  border: none;
+  font-family: Ubuntu, sans-serif;
+}
+.button-sec {
+  color: #111111 !important;
+  background-color: #f1c50e !important;
+  padding: 14px 27px;
+  cursor: pointer;
+  border: none;
+}
